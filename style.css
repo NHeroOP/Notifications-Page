@@ -29,10 +29,10 @@ p {
 
 .comment {
   display: flex; 
-  gap: 16px;
-  padding: 0.75rem;
+  gap: 12px;
+  padding: 10px;
   border-radius: 0.5rem;
-  cursor:pointer
+  cursor:pointer;
 }
 
 img{
@@ -51,11 +51,8 @@ img{
   color: hsl(219, 85%, 26%);
 }
 
-.unread-sign{
-  display: block;
-  height: 0.5rem;
-  width: 0.5rem;
-  border-radius: 50%;
-  background-color: hsl(1, 90%, 64%);
-  margin-top: 0.55rem;
+.fa-circle{
+  color: hsl(1, 90%, 64%);
+  font-size: 0.75rem;
+  margin-left: 6px;;
 }

@@ -8,18 +8,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
   <script src="main.js" defer></script>
   <title>Frontend Mentor | Notifications page</title>
 </head>
 <body>
-  <main class="max-w-[46rem] bg-white px-8 py-4 m-6 shadow-2xl rounded-xl">
+  <main class="max-w-[46rem] bg-white px-4 py-4 my-6 shadow-2xl rounded-xl">
     <header class="flex justify-between my-4">
       <h1 class="text-veryDarkBlue text-[1.5rem] font-[800] text-center">Notifications <span class="text-white bg-blue px-2 py-1 rounded-md text-[1rem]">3</span></h1>
-      <button class="cursor-pointer active:text-darkGrayishBlue read">Mark all as read</button>
+      <button class="cursor-pointer active:text-blue hover:text-grayishBlue read">Mark all as read</button>
     </header>  
 
-    <article class="flex flex-col gap-2">
+    <article class="flex flex-col gap-2 flex-wrap">
       <article class="comment unread">
         <img src="assets/images/avatar-mark-webber.webp" alt="">
         <div>

@@ -544,13 +544,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-6 {
-  margin: 1.5rem;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .ml-auto {
@@ -575,6 +576,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .justify-between {
@@ -621,9 +626,9 @@ video {
   padding-right: 0.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-1 {
@@ -705,10 +710,10 @@ p {
 
 .comment {
   display: flex;
-  gap: 16px;
-  padding: 0.75rem;
+  gap: 12px;
+  padding: 10px;
   border-radius: 0.5rem;
-  cursor:pointer
+  cursor:pointer;
 }
 
 img{
@@ -728,13 +733,10 @@ img{
   color: hsl(219, 85%, 26%);
 }
 
-.unread-sign{
-  display: block;
-  height: 0.5rem;
-  width: 0.5rem;
-  border-radius: 50%;
-  background-color: hsl(1, 90%, 64%);
-  margin-top: 0.55rem;
+.fa-circle{
+  color: hsl(1, 90%, 64%);
+  font-size: 0.75rem;
+  margin-left: 6px;
 }
 
 .hover\:bg-lightGrayishBlue1:hover {
@@ -742,7 +744,12 @@ img{
   background-color: hsl(211 68% 94% / var(--tw-bg-opacity));
 }
 
-.active\:text-darkGrayishBlue:active {
+.hover\:text-grayishBlue:hover {
   --tw-text-opacity: 1;
-  color: hsl(219 12% 42% / var(--tw-text-opacity));
+  color: hsl(219 14% 63% / var(--tw-text-opacity));
+}
+
+.active\:text-blue:active {
+  --tw-text-opacity: 1;
+  color: hsl(219 85% 26% / var(--tw-text-opacity));
 }
