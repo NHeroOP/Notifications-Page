@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* html, body {
+  height: 100%;
+} */
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  color: hsl(219, 12%, 42%);
+  background-color: hsl(210, 60%, 98%);
+  display: flex;
+  justify-content: center;
+}
+
+.time {
+  color: hsl(219, 14%, 63%);
+}
+
+main {
+  overflow:auto;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.comment {
+  display: flex; 
+  gap: 16px;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  cursor:pointer
+}
+
+img{
+  object-fit:contain;
+  width: 3rem;
+  align-self: flex-start;
+}
+
+.name {
+  color: hsl(224, 21%, 14%);
+  font-weight: 800;
+  margin-right: 0.25rem;
+}
+
+.name:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.unread-sign{
+  display: block;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  background-color: hsl(1, 90%, 64%);
+  margin-top: 0.55rem;
+}
