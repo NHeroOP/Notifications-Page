@@ -683,10 +683,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-/* html, body {
-  height: 100%;
-} */
-
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
@@ -698,10 +694,6 @@ body {
 
 .time {
   color: hsl(219, 14%, 63%);
-}
-
-main {
-  overflow:auto;
 }
 
 p {
